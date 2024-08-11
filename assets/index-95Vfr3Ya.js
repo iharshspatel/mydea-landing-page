@@ -10595,7 +10595,9 @@ const mm = () =>
                 "bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text",
               children: ["Works", " "],
             }),
-            "Step-by-Step Guide",
+            " ",
+            x.jsx("br", {}),
+            "Step by Step Guide",
           ],
         }),
         x.jsx("p", {
@@ -10622,6 +10624,7 @@ const mm = () =>
             )
           ),
         }),
+        x.jsx("div", { className: "ml-embedded", "data-form": "v1o9lQ" }),
       ],
     });
 function T() {
